@@ -1,5 +1,6 @@
 firstname = input('Введите имя пользователя: ')
-print('Привет, ' + firstname)
+greeting = 'Привет, '
+print(greeting + firstname)
 print("К сожалению, у Вас нет доступа к системе.")
 print("Пожалуйста, обратитесь к системному администратору.")
 
